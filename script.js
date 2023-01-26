@@ -23,7 +23,7 @@ function save () {
 }
 
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {}
-// vai estra esperando um objeto
+// vai estar esperando um objeto
 nlwSetup.setData(data)
 // carrega as informações
 nlwSetup.load()
